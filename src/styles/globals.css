@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #d3e3ae;
+}
+
+header{
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-shadow: 3px 1px 20px 0px #5d723c;
+    display: flex;
+    justify-content: space-between;
+    background: #465229;
+    color: white;
+}
+
+header > h2 {
+    font-family: monospace;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.mainbody{
+    width: calc(100% - 30px);
+    padding: 15px;
+}
+
+.login{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login > img{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+
+.btn{
+    width: 80px;
+    line-height: 20px;
+    box-shadow: inset 2px 2px 20px 0px #f6ff63;
+}
+
+.loginfooter{
+    text-align: right;
+}
+
+
+
+
+/*Comman Lib*/
+
+.flex{
+    display: flex;
+}
+
+.flex-dir-col{
+    flex-direction: column;
+}
+
+.justCntCenter{
+    justify-content: center;
+}
+
+.alignItem{
+    align-items: center;
+}
+
+.gap5{
+    gap: 5px;
+}
+
+
+fieldset{
+    display: inline-block;
+    padding: 5px;
+}
+
+/* ERROR MES*/
+.error{
+    font-size: 13px;
+    color: red;
+}
+
+/*input*/
+
+.inputText{
+    width: 290px;
+    line-height: 25px;
+    padding: 0px 5px;
+    font-size: 15px;;
+    border: 1px solid #aec98f;
+    outline-color:#d5e5c3; 
+    background: #d5e5c3;
+}
